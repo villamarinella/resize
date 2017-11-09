@@ -25,5 +25,5 @@ os.chdir(xpath)
 for file in glob.glob(xpattern):
 	print(file)
 	zahl=zahl+1
-	#res1(file)
+	res1(file)
 print 'Number of files: ' + str(zahl)
